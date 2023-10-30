@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70A41242AED4DBA0032BB7A /* Earthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A41232AED4DBA0032BB7A /* Earthy.swift */; };
+		D70A41262AED4DDC0032BB7A /* Rohan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70A41252AED4DDC0032BB7A /* Rohan.swift */; };
+		D7192B5A2AED0F060011EB14 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7192B592AED0F050011EB14 /* Planets.swift */; };
+		D71E940C2AEBF282002A20B7 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D71E940B2AEBF282002A20B7 /* RealityKitContent */; };
+		D71E940E2AEBF282002A20B7 /* ballonThrowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E940D2AEBF282002A20B7 /* ballonThrowApp.swift */; };
+		D71E94102AEBF282002A20B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E940F2AEBF282002A20B7 /* ContentView.swift */; };
+		D71E94122AEBF283002A20B7 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E94112AEBF282002A20B7 /* ImmersiveView.swift */; };
+		D71E94142AEBF283002A20B7 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = D71E94132AEBF283002A20B7 /* ImageBasedLighting.skybox */; };
+		D71E94162AEBF286002A20B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71E94152AEBF286002A20B7 /* Assets.xcassets */; };
+		D71E94192AEBF286002A20B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71E94182AEBF286002A20B7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D70A41232AED4DBA0032BB7A /* Earthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earthy.swift; sourceTree = "<group>"; };
+		D70A41252AED4DDC0032BB7A /* Rohan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rohan.swift; sourceTree = "<group>"; };
+		D7192B592AED0F050011EB14 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		D71E94062AEBF282002A20B7 /* ballonThrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballonThrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71E940A2AEBF282002A20B7 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		D71E940D2AEBF282002A20B7 /* ballonThrowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballonThrowApp.swift; sourceTree = "<group>"; };
+		D71E940F2AEBF282002A20B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D71E94112AEBF282002A20B7 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		D71E94132AEBF283002A20B7 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		D71E94152AEBF286002A20B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71E94182AEBF286002A20B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D71E941A2AEBF286002A20B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71E94032AEBF282002A20B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E940C2AEBF282002A20B7 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71E93FD2AEBF282002A20B7 = {
+			isa = PBXGroup;
+			children = (
+				D71E94082AEBF282002A20B7 /* ballonThrow */,
+				D71E94092AEBF282002A20B7 /* Packages */,
+				D71E94072AEBF282002A20B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71E94072AEBF282002A20B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71E94062AEBF282002A20B7 /* ballonThrow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71E94082AEBF282002A20B7 /* ballonThrow */ = {
+			isa = PBXGroup;
+			children = (
+				D70A41252AED4DDC0032BB7A /* Rohan.swift */,
+				D71E940D2AEBF282002A20B7 /* ballonThrowApp.swift */,
+				D71E940F2AEBF282002A20B7 /* ContentView.swift */,
+				D71E94112AEBF282002A20B7 /* ImmersiveView.swift */,
+				D7192B592AED0F050011EB14 /* Planets.swift */,
+				D71E94132AEBF283002A20B7 /* ImageBasedLighting.skybox */,
+				D71E94152AEBF286002A20B7 /* Assets.xcassets */,
+				D71E941A2AEBF286002A20B7 /* Info.plist */,
+				D71E94172AEBF286002A20B7 /* Preview Content */,
+				D70A41232AED4DBA0032BB7A /* Earthy.swift */,
+			);
+			path = ballonThrow;
+			sourceTree = "<group>";
+		};
+		D71E94092AEBF282002A20B7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				D71E940A2AEBF282002A20B7 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		D71E94172AEBF286002A20B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D71E94182AEBF286002A20B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71E94052AEBF282002A20B7 /* ballonThrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71E941D2AEBF286002A20B7 /* Build configuration list for PBXNativeTarget "ballonThrow" */;
+			buildPhases = (
+				D71E94022AEBF282002A20B7 /* Sources */,
+				D71E94032AEBF282002A20B7 /* Frameworks */,
+				D71E94042AEBF282002A20B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ballonThrow;
+			packageProductDependencies = (
+				D71E940B2AEBF282002A20B7 /* RealityKitContent */,
+			);
+			productName = ballonThrow;
+			productReference = D71E94062AEBF282002A20B7 /* ballonThrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71E93FE2AEBF282002A20B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D71E94052AEBF282002A20B7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = D71E94012AEBF282002A20B7 /* Build configuration list for PBXProject "ballonThrow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71E93FD2AEBF282002A20B7;
+			productRefGroup = D71E94072AEBF282002A20B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71E94052AEBF282002A20B7 /* ballonThrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71E94042AEBF282002A20B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E94162AEBF286002A20B7 /* Assets.xcassets in Resources */,
+				D71E94192AEBF286002A20B7 /* Preview Assets.xcassets in Resources */,
+				D71E94142AEBF283002A20B7 /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71E94022AEBF282002A20B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71E94102AEBF282002A20B7 /* ContentView.swift in Sources */,
+				D70A41242AED4DBA0032BB7A /* Earthy.swift in Sources */,
+				D71E940E2AEBF282002A20B7 /* ballonThrowApp.swift in Sources */,
+				D71E94122AEBF283002A20B7 /* ImmersiveView.swift in Sources */,
+				D70A41262AED4DDC0032BB7A /* Rohan.swift in Sources */,
+				D7192B5A2AED0F060011EB14 /* Planets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D71E941B2AEBF286002A20B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D71E941C2AEBF286002A20B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		D71E941E2AEBF286002A20B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ballonThrow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = webbies.ballonThrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D71E941F2AEBF286002A20B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ballonThrow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = webbies.ballonThrow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71E94012AEBF282002A20B7 /* Build configuration list for PBXProject "ballonThrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71E941B2AEBF286002A20B7 /* Debug */,
+				D71E941C2AEBF286002A20B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71E941D2AEBF286002A20B7 /* Build configuration list for PBXNativeTarget "ballonThrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71E941E2AEBF286002A20B7 /* Debug */,
+				D71E941F2AEBF286002A20B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D71E940B2AEBF282002A20B7 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D71E93FE2AEBF282002A20B7 /* Project object */;
+}
